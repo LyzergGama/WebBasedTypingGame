@@ -1,0 +1,47 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Set a dark background color */
+    color: #fff; /* Set text color to white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.game-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Darken the card background */
+    border-radius: 15px; /* Make the card round by increasing the border-radius */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Lighten the shadow */
+}
+
+h2 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
